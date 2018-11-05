@@ -29,4 +29,5 @@ def MA():
         for i in D:
             print(i, end=' ')
     
-MA()	
+if __name__ == "__main__":            
+    MA()	

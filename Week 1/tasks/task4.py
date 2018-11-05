@@ -1,7 +1,7 @@
 import sys
 import re
 
-class Stack:
+class stack:
     def __init__(self):
         self.items=[]
         self.max_items=[] 
@@ -35,11 +35,11 @@ class Stack:
         elif all_comm[2] in input_comm:
             self.max()
             
-def main():  
-    s=Stack()
+def Stack():  
+    s=stack()
     num_comm=int(input())
     for input_comm in sys.stdin:
         s.command(input_comm)
         
 if __name__ == "__main__":            
-    main()
+    Stack()

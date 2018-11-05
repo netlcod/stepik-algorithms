@@ -24,5 +24,6 @@ def check_brackets(string):
         return "Success"
     else:
         return opened.pop()
-    
-print(check_brackets(string))
+
+if __name__ == "__main__":        
+    print(check_brackets(string))
